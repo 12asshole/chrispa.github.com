@@ -1,0 +1,47 @@
+body
+{
+	background-color:#d8d4d8;
+}
+
+h1 {
+	font-family: "ubuntu",sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	color: #fff;
+	font-size: 64px;
+	padding-bottom: 20px;
+}
+
+body
+{ 
+background: url("img/landing-1400_mini.jpg") no-repeat scroll center top transparent;
+opacity: 1;
+visibility: visible;
+}
+
+.announce {
+	position:relative;
+	left:80px;
+	top:320px;
+}
+
+.attrib {
+	position: fixed;
+	right: 0pt; 
+	bottom: 0pt;
+	z-index: 2000000000;
+	vertical-align: baseline;
+}
+
+#mc_embed_signup {
+	clear:left; 
+	font:16px Helvetica,Arial,sans-serif;  
+	width:380px;
+}
+
+#mc_embed_signup .button {
+	background-color:#8eaa37;
+}
+
+#mc_embed_signup .button:hover {background-color:#8fa056;}
+
