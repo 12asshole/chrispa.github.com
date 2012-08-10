@@ -1,0 +1,108 @@
+
+.header {
+    background: none repeat scroll 0 0 #F2F0DF;
+    padding: 10px 0 10px;
+}
+
+.container2 {
+    background: none repeat scroll 0 0 #8E9E82;
+    padding: 20px 0 20px;
+}
+
+.container3 {
+    background: none repeat scroll 0 0 #A9C1D9;
+    padding: 40px 0 20px;
+}
+
+.container4 {
+    background: none repeat scroll 0 0 #CACCB6;
+    padding: 30px 0 20px;
+}
+
+.container5 {
+    background: none repeat scroll 0 0 #eaecfd;
+    padding: 30px 0 20px;
+}
+
+.footer {
+    background: none repeat scroll 0 0 #607890;
+    padding: 20px 0 10px;
+	height: 150px;
+}
+
+.nav-links {
+	float: right;
+	padding:15px 0 0;
+}
+
+.container2 h2 {
+	color: #FFF;
+	padding: 15px 0 15px;
+}
+
+.container2 h1 {
+	font-size:38px;
+	line-height:44px;
+}
+
+.container3 img {
+	padding-bottom: 35px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #fbfdfc;
+}
+
+.container3 h1 {
+	padding-bottom: 15px;
+}
+
+.container3 p {
+	color: #2c2c2c;
+}
+
+.container5 p {
+	color: #2c2c2c;
+}
+
+li {
+	font-size: 14px;
+	line-height: 20px;
+	color: #2c2c2c;
+	padding: 8px 0 0;	
+}
+
+.footer a {
+	color: #fbfdfc;
+    text-decoration: none;
+}
+
+.footer p {
+	color: #fbfdfc;
+}
+
+a.button, a.button:active {
+    padding: 11px 25px;
+    vertical-align: -6%;
+    color: #fbfdfc;
+    text-decoration: none;
+}
+
+.button, .button:active {
+    background: none repeat scroll 0 0 #ADC97E;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+hr {
+	margin: 20px 0 20px;
+}
