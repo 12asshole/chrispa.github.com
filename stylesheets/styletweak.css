@@ -106,3 +106,56 @@ a.button, a.button:active {
 hr {
 	margin: 20px 0 20px;
 }
+
+.button-signup {
+    background-color: #ED5E11;
+    background-image: -moz-linear-gradient(center top , #e89d58, #E25316);
+    border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #CF4000;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-repeat: repeat-x;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+    line-height: normal;
+    padding: 12px 15px;
+    width: 250px;
+}
+
+.button-signup:hover {
+	color: #ffffd9;
+	text-shadow: 0 -1px 0 #B12200;
+	background-color: #E25316;
+	background-position: 0 -15px;
+	text-decoration: none;
+}
+
+.button-signup:active {
+	background-image: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+	color: #FFC275;
+	background-color: #ED652F;
+}
+
+.button-signup:a {
+	text-decoration: none;
+}
+
+.button-signup-small {
+    font-size: 18px;
+    line-height: normal;
+    padding: 12px 15px;
+    width: 230px;
+}
