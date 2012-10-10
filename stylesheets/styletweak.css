@@ -1,12 +1,25 @@
+body {
+	background: url("http://chrispa.com/music/img/cardboard_flat-texture.png") repeat scroll 0 0 transparent;
+}
 
 .header {
     background: none repeat scroll 0 0 #F2F0DF;
     padding: 10px 0 10px;
 }
 
+.width_limit {
+	width: 1061px;
+	margin:0 auto;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); 
+}
+
 .container2 {
-    background: none repeat scroll 0 0 #8E9E82;
-    padding: 20px 0 20px;
+    background: none repeat scroll 0 0 #5F616C;
+	background-image: url('http://chrispa.com/music/img/colored_chalk_500height.jpg');
+	background-repeat:no-repeat;
+	background-attachment:top;
+	background-position:center;
+	height: 500px;
 }
 
 .container3 {
@@ -38,11 +51,14 @@
 .container2 h2 {
 	color: #FFF;
 	padding: 15px 0 15px;
+
 }
 
 .container2 h1 {
-	font-size:38px;
+	color: #FFF;
+	font-size:42px;
 	line-height:44px;
+
 }
 
 .container3 img {
@@ -111,6 +127,13 @@ hr {
 	margin: 50px 0 50px;	
 }
 
+.btn-yellow {
+    background-color: #DDD079;
+    background-image: -moz-linear-gradient(center top , #EED079, #F2CC5C);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
 
 .btn-honey { 
 	text-shadow: 0px -1px 0px #bd8018;
@@ -130,4 +153,3 @@ hr {
 .btn-honey:hover { color: #fffffe; text-shadow: 0px -1px 0px #9f6200; }
 .btn-honey:focus { color: #ffff9a; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); border-color: #DB9E36 #bd8018 #bd8018 #DB9E36; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
 .btn-honey.active, .btn-honey-pot-4:active { background-image: none; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); color: #ffff9a; }
-
