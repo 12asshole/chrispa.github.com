@@ -3,8 +3,7 @@ body {
 }
 
 .header {
-    background: none repeat scroll 0 0 #F2F0DF;
-    padding: 10px 0 10px;
+    background: none repeat scroll 0 0 #EEE;
 }
 
 .width_limit {
@@ -19,7 +18,9 @@ body {
 	background-repeat:no-repeat;
 	background-attachment:top;
 	background-position:center;
-	height: 500px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); 
+	height: 370px;
+	padding-top: 30px;
 }
 
 .container3 {
