@@ -14,12 +14,12 @@ body {
 
 .container2 {
     background: none repeat scroll 0 0 #5F616C;
-	background-image: url('/img/chalkpic-400high.jpg');
+	background-image: url('http://chrispa.com/music/img/colored_chalk_500height.jpg');
 	background-repeat:no-repeat;
 	background-attachment:top;
 	background-position:center;
 	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); 
-	height: 370px;
+	height: 355px;
 	padding-top: 30px;
 }
 
@@ -46,13 +46,32 @@ body {
 
 .nav-links {
 	float: right;
-	padding:15px 0 0;
+	padding-top: 7px;
+	font-color: #295A8D;
 }
+
+ul.nav-links {
+	list-style-type: none;
+}
+
+ul.nav-links li {
+    float: left;
+	padding: 10px 25px 0 0;
+	font-size: 22px;
+	color: #295A8D;
+}
+
+.pricing {
+	font-size: 16px;
+	color: #295a8d;
+}
+
 
 .container2 h2 {
 	color: #FFF;
 	padding: 15px 0 15px;
-
+	font-size:26px;
+    line-height: 38px;
 }
 
 .container2 h1 {
@@ -62,18 +81,14 @@ body {
 
 }
 
-.container3 img {
-	padding-bottom: 35px;
-}
-
 p {
 	font-size: 16px;
 	line-height: 24px;
 	color: #fbfdfc;
 }
 
-.container3 h1 {
-	padding-bottom: 15px;
+.container3 h2 {
+	float: center;
 }
 
 .container4 p {
