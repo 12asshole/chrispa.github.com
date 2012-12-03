@@ -1,175 +1,77 @@
 body {
-	background: url("http://chrispa.com/music/img/cardboard_flat-texture.png") repeat scroll 0 0 transparent;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
-.header {
-    background: none repeat scroll 0 0 #EEE;
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  margin: 40px 0;
 }
 
-.width_limit {
-	width: 1061px;
-	margin:0 auto;
-	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); 
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
 }
 
-.container2 {
-    background: none repeat scroll 0 0 #5F616C;
-	background-image: url('http://chrispa.com/music/img/colored_chalk_500height.jpg');
-	background-repeat:no-repeat;
-	background-attachment:top;
-	background-position:center;
-	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); 
-	height: 355px;
-	padding-top: 30px;
+/* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+
+.marketing h2 {
+	font-weight: normal;
 }
 
-.container3 {
-    background: none repeat scroll 0 0 #A9C1D9;
-    padding: 40px 0 20px;
+ /* end of bootstrap code.  I'm completely responsible for the crap below. */
+
+/* based on one of the fonts in the carousel template on bootstraps site */
+.jumbotron h1 {
+	background-color: transparent;
+	color: #5A5A5A;
+	display: block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	font-weight: normal;
+	padding: 0 0 10px;
+	letter-spacing: -1px;
+	line-height: 60px;
+	margin: 0;
+	text-rendering: optimizelegibility;
 }
 
-.container4 {
-    background: none repeat scroll 0 0 #CACCB6;
-    padding: 30px 0 20px;
+.lead {
+	font-size:24px;
+	line-height: 32px;
 }
 
-.container5 {
-    background: none repeat scroll 0 0 #eaecfd;
-    padding: 30px 0 20px;
-}
-
-.footer {
-    background: none repeat scroll 0 0 #607890;
-    padding: 20px 0 10px;
-	height: 150px;
-}
-
-.nav-links {
-	float: right;
-	padding-top: 7px;
-	font-color: #295A8D;
-}
-
-ul.nav-links {
-	list-style-type: none;
-}
-
-ul.nav-links li {
-    float: left;
-	padding: 10px 25px 0 0;
-	font-size: 22px;
-	color: #295A8D;
-}
-
-.pricing {
+.masthead a {
+	color: #5A5A5A;
 	font-size: 16px;
-	color: #295a8d;
+}
+
+.nav-pills {
+	padding-top: 10px;
+}
+
+.nav-pills > li > a {
+	margin-right: 30px;
 }
 
 
-.container2 h2 {
-	color: #FFF;
+.screenshot {
+	padding-bottom:40px;
+}
+
+.row {
 	padding: 15px 0 15px;
-	font-size:26px;
-    line-height: 38px;
 }
-
-.container2 h1 {
-	color: #FFF;
-	font-size:42px;
-	line-height:44px;
-
+.jumbotron .btn {
+	line-height: 25px;
+	padding: 10px 30px;
 }
-
-p {
-	font-size: 16px;
-	line-height: 24px;
-	color: #fbfdfc;
-}
-
-.container3 h2 {
-	float: center;
-}
-
-.container4 p {
-	color: #2c2c2c;
-}
-
-.container3 p {
-	color: #2c2c2c;
-}
-
-.container5 p {
-	color: #2c2c2c;
-}
-
-li {
+.mini {
 	font-size: 14px;
-	line-height: 20px;
-	color: #2c2c2c;
-	padding: 8px 0 0;	
-}
-
-.footer a {
-	color: #fbfdfc;
-    text-decoration: none;
-}
-
-.footer p {
-	color: #fbfdfc;
-}
-
-a.button, a.button:active {
-    padding: 11px 25px;
-    vertical-align: -6%;
-    color: #fbfdfc;
-    text-decoration: none;
-}
-
-.button, .button:active {
-    background: none repeat scroll 0 0 #ADC97E;
-    border: medium none;
-    border-radius: 4px 4px 4px 4px;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 10px 25px;
-    text-decoration: none;
-}
-
-hr {
-	margin: 20px 0 20px;
-}
-
-.getstarted hr {
-	margin: 50px 0 50px;	
-}
-
-.btn-yellow {
-    background-color: #DDD079;
-    background-image: -moz-linear-gradient(center top , #EED079, #F2CC5C);
-    background-repeat: repeat-x;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 
 
-.btn-honey { 
-	text-shadow: 0px -1px 0px #bd8018;
-	color: #ffffff; 
-	background-color: #DB9E36; 
-	background-image: -moz-linear-gradient(top, #f9bc54, #bd8018); 
-	background-image: -ms-linear-gradient(top, #f9bc54, #bd8018); 
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9bc54), to(#bd8018)); 
-	background-image: -webkit-linear-gradient(top, #f9bc54, #bd8018); 
-	background-image: -o-linear-gradient(top, #f9bc54, #bd8018); 
-	background-image: linear-gradient(top, #f9bc54, #bd8018); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9bc54', endColorstr='#bd8018', GradientType=0); 
-	border-color: #DB9E36 #bd8018 #bd8018 #DB9E36; 
-	border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); 
-
-}
-.btn-honey:hover, .btn-honey-pot-4:active, .btn-honey-pot-4.active, .btn-honey-pot-4.disabled, .btn-honey-pot-4[disabled] { background-color: #bd8018; }
-.btn-honey:hover { color: #fffffe; text-shadow: 0px -1px 0px #9f6200; }
-.btn-honey:focus { color: #ffff9a; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); border-color: #DB9E36 #bd8018 #bd8018 #DB9E36; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
-.btn-honey.active, .btn-honey-pot-4:active { background-image: none; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); color: #ffff9a; }
