@@ -1,0 +1,48 @@
+
+PAGE TITLES AND META DESCRIPTIONS FOR REFERENCE
+just doing this manually since there are so few pages
+
+Updated 12/11/12
+
+
+Page:  trilloclass.com
+
+<title>Class management software with online registration & payment | Trillo</title>
+<meta name"description" content="Trillo is a web based class and student management solution for businesses that offer classes.  Improve your customer experience with online registration and payment.">
+
+------------------------------------------------------------------
+
+
+Page:  /pricing
+
+<title>Class management software with online registration & payment | Trillo - Pricing</title>
+<meta name"description" content="Trillo is a web based class and student management solution for businesses that offer classes.  Improve your customer experience with online registration and payment.">
+
+------------------------------------------------------------------
+
+
+Page:  /terms_privacy
+
+<title>Class management software with online registration & payment | Trillo</title>
+<meta name"description" content="Trillo is a web based class and student management solution for businesses that offer classes.  Improve your customer experience with online registration and payment.">
+
+------------------------------------------------------------------
+
+
+Page:  /about
+
+<title>Class management software with online registration & payment | Trillo - About</title>
+<meta name"description" content="Trillo is a web based class and student management solution for businesses that offer classes.  Improve your customer experience with online registration and payment.">
+
+------------------------------------------------------------------
+
+
+Page:  /refund_policy
+
+<title>Class management software with online registration & payment | Trillo</title>
+<meta name"description" content="Trillo is a web based class and student management solution for businesses that offer classes.  Improve your customer experience with online registration and payment.">
+
+------------------------------------------------------------------
+
+
+
