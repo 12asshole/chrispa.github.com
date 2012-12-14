@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Class management software with online registration & payment | Trillo</title>
+  <meta name"description" content="Trillo is a web based class and student management solution for businesses that offer classes.  Improve your customer experience with online registration and payment.">
+	<link href="stylesheets/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="stylesheets/fa/font-awesome.css" rel="stylesheet">
+	<link href="stylesheets/styletweak.css" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32232326-1']);
+    _gaq.push(['_setDomainName', 'trilloclass.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="masthead">
+      <a href="/"><img style="padding:10px 0 10px" width="150px" src="img/trillo-logo-iconleft.png" alt="Trillo Logo"></a>
+    </div>
+    <hr>
+    <div class="row marketing">
+      <div class="span10">
+        <h2>Getting Started with Trillo</h2>
+        <p>This guide has been written to help new customers get started using Trillo.  It will walk you through the basic steps we reccomend you take to get started, with the specific goal of testing out how Trillo works to get a sense of if it will solve your current registration and class management problems.</p>
+        <p>As always we are only an email or phone call away.  Please contact us at help@trilloclass.com or call 802-318-4714 if you run into problems.  Thank you for trying Trillo!</p>
+        
+        <h4>Just click - you ain't gonna break it!</h4>
+        <p>Trillo comes with a little bit of 'dummy data' to help you see how things work.  There is a class already set up, with two students enrolled.  There is also one Registration form for you to review.  So our #1 piece of advice is to start clicking & editing things.  You'll quickly get a feel for how it all works together.</p>
+        
+        
+      </div>
+    </div>
+    <div class="row marketing getstarted">
+      <div class="span8">
+        <h2>1) Setting Up Your Organization</h2>
+        <p>The first screen you see after signing up for Trillo is the Organization Settings page.  To return to this page in the future just click the 'Settings' link in the upper right.  Let's set a few things up:</p>
+        <ol>
+          <li><b>Email Address:</b> This is email where your customers can contact you.  It will be the 'Reply-To' email for any emails Trillo sends on your behalf (like registration confirmation emails.)</li>
+          <li><b>Waivers:</b> These are two waivers that will show up on EVERY registration form you create.  You will also have the ability to create Registration Form Specific waivers when you create the forms.  For now let's just put something in both of these fields.  Then when you view the registration form you create later, you can see where the language is inserted.</li>
+          <li><b>Collecting Payment:</b> We allow you to connect with a service called Stripe in order to collect credit cards.  For now let's NOT connect the Stripe account (even if you have one.)  It's easier to see how everything works first and then come back and add payment collection.</li>
+          <li><b>Users:</b> These are users who can access your Trillo account.  Users who are not admins can do everything except access this Settings page.</li>
+          <li><b>Sessions:</b> Trillo requires you to organize classes by what we call Sessions.  You can have as many as you would like, and you can create different registration forms for different sessions.  Create a few here now.</li>
+          <li><b>Locations:</b> If you have multiple locations you can enter those here.  Locations is used simply as a filter.  So for example you can filter/email/export all the classes at a specific location.</li>
+          <li><b>Instructors:</b>  Just like Locations, Instructors is used to filter & organize classes.  Each class can only have one instructor, so if you have classes where there are two you'll need to create a separate instructor.  For example: Julie Smith/Wendy Davis</li>
+        </ol>  
+        
+        <h4>That's it for Settings!  Click 'Update Settings' at the bottom of the page.</h4>
+        
+        
+        <h2>2) Setting Up Classes</h2>
+        <p>Next, click on the Classes tab on the top navigation bar.  You'll see there is an example class already created called 'Drawing With Chalk'.  Next click the button on the right side 'Add Class'.</p>
+        <p>Note that a Class in Trillo is a distinct instance of that class.  So if in the Fall session you have three different 'Tumbling For Tots' (one on Monday, one Wed, one Fri) then you should create three different classes in Trillo.  (We'll show you how to duplicate classes later!) </p>
+        <ol>
+          <li><b>Name:</b> The class name!</li>
+          <li><b>Active?:</b> If a class is marked Active then it WILL show up on Registration forms.  If it is NOT active it will not.  A handy way to add future classes without letting people register for them yet, or pull a class from the Registration form.</li>
+          <li><b>Description:</b> This field currently does NOT show up in any public facing page.  Use if you want, but not required.</li>
+          <li><b>Days:</b> Choose the days this class will be offered.</li>
+          <li><b>Start/End Dates:</b> When the class starts and ends.  Note that once the class is over it will automatically show up in Past Classes.  You can click on 'View Past Classes' on the Classes home screen.</li>
+          <li><b>Time:</b> When the class is held.  Note that this field can be any text - Trillo doesn't do any time calculations.  So you can enter things like 'Call To Schedule'</li>
+          <li><b>Cost:</b> Total cost of the class.  You can enter zero if the class is free.</li>
+          <li><b>Kid/Adult/Teen:</b> Who is the class for?  This is used for filtering when creating Registration forms.  You can select multiple categories.</li>
+          <li><b>Max Enrollment:</b> Trillo tracks the number of enrolled students.  When a class reaches this limit new registrations aren't allowed.  No more wildly oversubscribed classes!!  The Details: The class is still seen on the Registration form, but the button to select it disappears.  A note next to the class will say 'Class Full - Please email for waitlist.'  At this time Trillo doesn't automatically handle waitlist (but it's something in the pipeline.)</li>
+          <li><b>Session/Instructor/Location:</b> Specific details to help organize classes.</li>
+        </ol>
+        
+        <h4>That's it! Click 'Create Course' to create the class.</h4>
+        
+        
+        <h2>3) Setting Up A Registration Form</h2>
+        <p>Next we'll go through the options available to set up a new registration form that your customers can use to register for your classes.  You can have multiple Registration forms in Trillo and each will have a unique URL that you can point to on your website.</p>
+        <p>Why would I want multiple registration forms?</p>
+        <ul>
+          <li>You have some classes where you want to capture a LOT of emergency contact information, but others where you don't want to capture any.</li>
+          <li>You might have a separate form for Events or Birthday parties where no emergency contact info is collected.</li>
+          <li>You want to collect just a registration fee for some classes, but the full class cost for others.</li>
+          <li>You have specific instructions or waivers JUST for a subset of your classes.</li>
+        </ul>
+        
+        <h4>Here are the form fields and how they affect the Registration form:</h4>
+        <ol>
+          <li><b>Name:</b> The name of the form!  This does show up at the top of the public form.</li>
+          <li><b>What classes?:</b> Forms are filtered based on Sessions and on Class Type (below)</li>
+          <li><b>Class Type?:</b> Are there only certain types of classes we should include?  Check all if you want all classes to be included.</li>
+          <li><b>What kind of Emergency Contact Info Should we collect?:</b> Comprehensive is the most, Basic is more streamlined, and none skips that section altogether.  Note that for Adults we ONLY collect Basic information, even if Comprehensive is checked off.  In other words - Comprehensive vs Basic only applies to children. </li>
+          <li><b>Print out?:</b> Do you want customers to have an option at the end of the form to print it out and mail it in with a check?</li>
+          <li><b>Specific Instructions:</b> These Instructions show up at the top of the form on every page of the form.</li>
+          <li><b>Specific Legal Waiver:</b> This waiver shows up on Page 2 AND Page 3.  The best advice regarding the waiver info is to try something, then view the form to see where it is located.</li>
+        </ol>
+        
+        <p><b>That's it!</b>  Clicking Create will take you back to all the Registration forms.  Clicking the 'View' button to the right of the form will open the form in another tab in your browser.  Clicking 'Copy' will copy the URL of the form to your computer clipboard.  This is the URL you should point your 'Register Now' button to on your website.</p>  
+          
+          <!--
+        
+        <h2>4) Register A Few 'Dummy' Students</h2>
+        
+        
+        <h2>5) Understand the Students/Class Details</h2>
+        
+        
+        
+        <h2>6) How Do I......? </h2>
+        -->
+        
+        
+      </div>
+    </div>
+
+
+    <hr>
+  
+    <div class="footer">
+      <p>&copy; Trillo LLC 2012</p>
+      <p><i class="icon-envelope"></i> hello@trilloclass.com</p>
+      <p><i class="icon-phone"></i> 802-318-4714</p>
+    </div>
+
+  </div> <!-- /container -->
+</body>
+</html>

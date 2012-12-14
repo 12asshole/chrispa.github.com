@@ -74,4 +74,12 @@ body {
 	font-size: 14px;
 }
 
-
+.getstarted h2 {
+	padding: 20px 0 0 0;
+}
+.getstarted h4 {
+	padding: 15px 0 15px 0;
+}
+.getstarted li {
+	padding: 5px 0 5px 0;
+}
