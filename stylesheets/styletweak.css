@@ -74,6 +74,8 @@ body {
 	font-size: 14px;
 }
 
+/*  the getting started page  */
+
 .getstarted h2 {
 	padding: 20px 0 0 0;
 }
@@ -88,7 +90,14 @@ body {
 	padding: 20px 0 5px 0;
 }
 
-
 .getstarted img {
 	padding-bottom: 15px;
 }
+
+/*  the footer  */
+
+.footer a {
+	color: #333;
+}
+
+
