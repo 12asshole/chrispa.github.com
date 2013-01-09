@@ -100,4 +100,20 @@ body {
 	color: #333;
 }
 
+.services-list h5 {
+	margin: 0;
+}
+
+.services-list p {
+	margin-right: 10px;
+}
+
+.services-list {
+	padding-bottom: 15px;
+}
+
+.services-list a {
+	color: #333;
+	text-decoration: none;
+}
 
