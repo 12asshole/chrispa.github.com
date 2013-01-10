@@ -1,0 +1,119 @@
+body {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  margin: 40px 0;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+
+.marketing h2 {
+	font-weight: normal;
+}
+
+ /* end of bootstrap code.  I'm completely responsible for the crap below. */
+
+/* based on one of the fonts in the carousel template on bootstraps site */
+.jumbotron h1 {
+	background-color: transparent;
+	color: #5A5A5A;
+	display: block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	font-weight: normal;
+	padding: 0 0 10px;
+	letter-spacing: -1px;
+	line-height: 60px;
+	margin: 0;
+	text-rendering: optimizelegibility;
+}
+
+.lead {
+	font-size:24px;
+	line-height: 32px;
+}
+
+.masthead a {
+	color: #5A5A5A;
+	font-size: 16px;
+}
+
+.nav-pills {
+	padding-top: 10px;
+}
+
+.nav-pills > li > a {
+	margin-right: 30px;
+}
+
+
+.screenshot {
+	padding-bottom:40px;
+}
+
+.row {
+	padding: 15px 0 15px;
+}
+.jumbotron .btn {
+	line-height: 25px;
+	padding: 10px 30px;
+}
+.mini {
+	font-size: 14px;
+}
+
+/*  the getting started page  */
+
+.getstarted h2 {
+	padding: 20px 0 0 0;
+}
+.getstarted h4 {
+	padding: 15px 0 15px 0;
+}
+.getstarted li {
+	padding: 5px 0 5px 0;
+}
+
+.how-do-i h4 {
+	padding: 20px 0 5px 0;
+}
+
+.getstarted img {
+	padding-bottom: 15px;
+}
+
+/*  the footer  */
+
+.footer a {
+	color: #333;
+}
+
+.services-list h5 {
+	margin: 0;
+}
+
+.services-list p {
+	margin-right: 10px;
+}
+
+.services-list {
+	padding-bottom: 15px;
+}
+
+.services-list a {
+	color: #333;
+	text-decoration: none;
+}
+
