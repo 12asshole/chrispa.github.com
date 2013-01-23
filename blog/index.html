@@ -1,0 +1,21 @@
+---
+layout: default
+title: Blog
+---
+
+
+<div class="row blog">
+  <div class="span10 offset1">
+      {% for post in site.posts %}
+        <a href="{{ post.url }}">
+          <h1>{{ post.title }}</h1>
+        </a>
+        <h4 class="date">{{ post.date | date_to_string }}</h4>
+        <p>{{ post.content }}</p>
+      {% endfor %}
+   </div>
+</div>
+
+
+
+   

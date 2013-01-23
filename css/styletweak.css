@@ -100,6 +100,10 @@ body {
 	color: #333;
 }
 
+.footer {
+	border-top:1px solid #ccc;
+}
+
 .services-list h5 {
 	margin: 0;
 }
@@ -116,4 +120,24 @@ body {
 	color: #333;
 	text-decoration: none;
 }
+
+.blogtitle a {
+	text-decoration: none;
+}
+
+.sign-today {
+	padding: 7px 0 0 40px;
+}
+
+/* blog styles */
+
+.blog h1 {
+	color: #333;
+	font-size:24px;
+	line-height: 32px;
+}
+
+
+
+
 
