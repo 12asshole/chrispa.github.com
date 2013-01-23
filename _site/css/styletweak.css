@@ -129,6 +129,25 @@ body {
 	padding: 7px 0 0 40px;
 }
 
+.signup {
+	text-align: center;
+}
+
+.included li {
+	padding-bottom: 15px;
+}
+
+/* FAQ styles */
+
+.faq {
+	padding: 20px 0 30px;
+}
+
+.faq p {
+	padding-bottom: 25px;
+}
+
+
 /* blog styles */
 
 .blog h1 {
