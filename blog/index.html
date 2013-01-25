@@ -5,15 +5,21 @@ title: Blog
 
 
 <div class="row blog">
-  <div class="span10 offset1">
-      {% for post in site.posts %}
-        <a href="{{ post.url }}">
-          <h1>{{ post.title }}</h1>
-        </a>
-        <h4 class="date">{{ post.date | date_to_string }}</h4>
-        <p>{{ post.content }}</p>
-      {% endfor %}
-   </div>
+  <div class="span10">
+  {% for post in site.posts %}
+    <div class="span1 post-date">
+      <p><strong>{{ post.date | date_to_string }}</strong></p>
+    </div>
+    <div class="span8">
+      <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+      <p>{{ post.content }}</p>
+      <hr />
+    </div>
+  {% endfor %}
+  </div>
+  <div class="2">
+    <p>&nbsp;</p>
+  </div>
 </div>
 
 

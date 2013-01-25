@@ -2,6 +2,8 @@
 layout: post
 title: Student Centered Design
 ---
+<img src="/img/blog/dartboard.jpg">
+
 When we started designing Trillo, one of the first things we needed to decide on was what the software would be ‘centered’ on.  That is, what is the most core and basic part of the software that connects everything else?  What is the thing that, if it was missing, would remove the whole point of using the software?
 
 The answer was pretty simple – **it’s the student.**

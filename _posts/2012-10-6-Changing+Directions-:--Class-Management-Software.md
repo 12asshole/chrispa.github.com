@@ -3,6 +3,8 @@ layout: post
 title: Changing Directions - Class Management Software
 tags: test
 ---
+<img src="/img/blog/left-turn.png">
+
 It’s not uncommon for new businesses to end up serving a completely different customer than they originally intended to.    The photo site Flickr started out as a feature of an online game.  Groupon started as an online activist platform!   Trillo started as a student management tool for independent music teachers.   But in talking with that market an even bigger problem (and opportunity!) emerged – helping businesses who offer classes for children a simple tool to enable online registration, online payment, and ongoing student management.
 
 The most common solution to the problem is to either:

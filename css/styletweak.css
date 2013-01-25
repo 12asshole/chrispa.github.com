@@ -156,6 +156,18 @@ body {
 	line-height: 32px;
 }
 
+.post-date {
+	background-color: #59B159;
+	color: #FFFFFF;
+  padding: 8px 0;
+	text-align: center;
+	width: 70px;
+	margin-top: 12px;
+}
+
+.blog hr {
+	padding: 20px 0 20px 0;
+}
 
 
 
