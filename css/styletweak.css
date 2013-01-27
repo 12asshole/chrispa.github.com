@@ -104,6 +104,12 @@ body {
 	border-top:1px solid #ccc;
 }
 
+.masthead {
+	border-bottom:1px solid #eee;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+}
+
 .services-list h5 {
 	margin: 0;
 }
