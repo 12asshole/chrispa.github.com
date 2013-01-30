@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Personality Shout Out - Wistia
-tags: 
+tags: Personality
 ---
 As a web software provider, I get exposed to a lot of other web services in my day-to-day life.  Some of them are services we use here at Trillo, and others are just ones I explore to see what I can learn.  One common theme among some of what I consider the 'Best' services are that they let their personality shine through.  It's easy to be 'goofy' - what's hard is to be genuine.  (It's shouldn't be hard, but for some reason it is.)
 
