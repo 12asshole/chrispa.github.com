@@ -9,6 +9,8 @@
 			<string>_config.yml</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>_layouts</string>
 			<key>regexFolderFilter</key>
@@ -17,8 +19,6 @@
 			<string>_layouts</string>
 		</dict>
 		<dict>
-			<key>expanded</key>
-			<true/>
 			<key>name</key>
 			<string>_posts</string>
 			<key>regexFolderFilter</key>
@@ -146,6 +146,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{1234, 149}, {614, 764}}</string>
+	<string>{{1234, 18}, {1124, 895}}</string>
 </dict>
 </plist>
