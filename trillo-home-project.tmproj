@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>_posts/2013-7-28-Stripe-adds-quickbooks-export.md</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -19,6 +21,8 @@
 			<string>_layouts</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>_posts</string>
 			<key>regexFolderFilter</key>
@@ -47,6 +51,8 @@
 			<string>art-studios.html</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>blog</string>
 			<key>regexFolderFilter</key>
@@ -79,8 +85,6 @@
 			<string>getting-started.html</string>
 		</dict>
 		<dict>
-			<key>expanded</key>
-			<true/>
 			<key>name</key>
 			<string>img</string>
 			<key>regexFolderFilter</key>
@@ -92,7 +96,7 @@
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2013-08-06T11:41:19Z</date>
+			<date>2013-08-31T14:44:17Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -142,10 +146,29 @@
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>318</integer>
 	<key>metaData</key>
-	<dict/>
+	<dict>
+		<key>_posts/2013-7-28-Stripe-adds-quickbooks-export.md</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>197</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>_posts/2013-7-28-Stripe-adds-quickbooks-export.md</string>
+	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{1234, 18}, {1124, 895}}</string>
+	<string>{{622, 0}, {772, 878}}</string>
 </dict>
 </plist>
