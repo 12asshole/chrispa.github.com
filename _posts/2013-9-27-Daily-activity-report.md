@@ -8,3 +8,4 @@ Clients who have Stripe connected to Trillo now receive a daily email every morn
 
 Always nice to wake up to a 'here's the cash you made yesterday' email!
 
+10/22/13 UPDATE - just received an email from a client with the subject line 'Daily Summaries Rock'   Great to hear they are helping!

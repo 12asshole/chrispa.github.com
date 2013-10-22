@@ -17,6 +17,8 @@
 			<string>_layouts</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>_posts</string>
 			<key>regexFolderFilter</key>
